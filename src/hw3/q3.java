@@ -13,7 +13,7 @@ public class q3 {
 		System.out.println("請輸入想要迴避的數字");
 		int a = scanner.nextInt();
 		char b = (char) ('0' + a); 
-		List<Character> excludeNumbers = Arrays.asList(b6);
+		List<Character> excludeNumbers = Arrays.asList(b);
 		for (int m = 1; m < max; m++) {
 			if (shouldExclude(m, excludeNumbers)) {
 				continue;
